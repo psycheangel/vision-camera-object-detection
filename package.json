@@ -1,7 +1,7 @@
 {
   "name": "@psycheangel/vision-camera-object-detection",
   "title": "React Native Vision Camera Object Detection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TODO",
   "main": "index.js",
   "files": [
@@ -32,7 +32,7 @@
   "peerDependencies": {
     "react": ">=16.8.1",
     "react-native": ">=0.60.0-rc.0 <1.0.x",
-    "react-native-vision-camera" : ">=2"
+    "react-native-vision-camera": ">=2"
   },
   "devDependencies": {
     "react": "^16.9.0",
