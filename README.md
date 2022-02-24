@@ -7,11 +7,30 @@
 ### Mostly automatic installation
 
 `$ react-native link vision-camera-object-detection`
+```javascript
+module.exports = {
+  presets: ['module:metro-react-native-babel-preset'],
+  plugins: [
+    [
+      'react-native-reanimated/plugin',
+      {
+        globals: [ "__detectObject"],
+      },
+    ],
+  ],
+};
 
+```
 ## Usage
 ```javascript
-import VisionCameraObjectDetection from 'vision-camera-object-detection';
+import {detectObject} from "vision-camera-object-detection";
 
 // TODO: What to do with the module?
-VisionCameraObjectDetection;
+  const frameProcessor = useFrameProcessor((frame) => {
+    'worklet';
+   
+      const values = detectObject(frame);
+      console.log(values);
+   
+  }, []);
 ```
