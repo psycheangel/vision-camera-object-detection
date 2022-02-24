@@ -2,11 +2,11 @@
 
 ## Getting started
 
-`$ npm install vision-camera-object-detection --save`
+`$ npm install @psycheangel/vision-camera-object-detection --save`
 
 ### Mostly automatic installation
 
-`$ react-native link vision-camera-object-detection`
+`$ react-native link @psycheangel/vision-camera-object-detection`
 ```javascript
 module.exports = {
   presets: ['module:metro-react-native-babel-preset'],
