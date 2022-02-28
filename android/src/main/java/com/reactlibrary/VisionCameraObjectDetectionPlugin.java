@@ -23,7 +23,6 @@ import com.google.mlkit.vision.objects.ObjectDetection;
 import com.google.mlkit.vision.objects.ObjectDetector;
 import com.google.mlkit.vision.objects.defaults.ObjectDetectorOptions;
 
-import com.google.mlkit.vision.objects.DetectedObject;
 
 import com.mrousavy.camera.frameprocessor.FrameProcessorPlugin;
 

@@ -36,7 +36,7 @@ buildscript {
         dependencies {
             // This should reflect the Gradle plugin version used by
             // the minimum React Native version supported.
-            classpath 'com.android.tools.build:gradle:3.4.1'
+        classpath 'com.android.tools.build:gradle:4.2.1'
         }
     }
 }
@@ -72,14 +72,10 @@ repositories {
 dependencies {
     //noinspection GradleDynamicVersion
     implementation 'com.facebook.react:react-native:+'  // From node_modules
-      api project(":react-native-vision-camera")
-  implementation "androidx.camera:camera-core:1.1.0-alpha12"
+    api project(":react-native-vision-camera")
+    implementation "androidx.camera:camera-core:1.1.0-alpha12"
     implementation 'androidx.annotation:annotation:1.1.0' 
-    //    def lifecycle_version = "2.4.0"
-    //     def arch_version = "2.1.0"
-    //      // Lifecycles only (without ViewModel or LiveData)
-    //     implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
-       implementation 'com.google.mlkit:object-detection:17.0.0'
+    implementation 'com.google.mlkit:object-detection:17.0.0'
 }
 
 def configureReactNativePom(def pom) {
@@ -89,7 +85,7 @@ def configureReactNativePom(def pom) {
         name packageJson.title
         artifactId packageJson.name
         version = packageJson.version
-        group = "com.reactlibrary"
+        group = "com.visioncameraobjectdetection"
         description packageJson.description
         url packageJson.repository.baseUrl
 
