@@ -1,7 +1,7 @@
 {
   "name": "@psycheangel/vision-camera-object-detection",
   "title": "React Native Vision Camera Object Detection",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "TODO",
   "main": "index.js",
   "files": [
