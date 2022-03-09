@@ -9,7 +9,7 @@
     "android",
     "index.js",
     "ios",
-    "vision-camera-object-detection.podspec"
+    "@psycheangel_vision-camera-object-detection.podspec"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
